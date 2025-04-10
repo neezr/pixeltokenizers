@@ -29,4 +29,4 @@ patches[0].shape
   - use ```PixelTokenizer(disable_cache=True)```
 - Bidirectional and right-to-left text (e.g. Hebrew) is not handled well 
   - use external libraries for handling bidirectional text, such as ```python-bidi```
-- Color is not yet supported (e.g. emoji)
+- Default fonts do not display emoji
